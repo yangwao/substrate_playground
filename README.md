@@ -1,5 +1,6 @@
 # substrate_playground
 
+[Requirements here is to have Docker installed](https://docs.docker.com/get-docker/)
 
 ## Run for local develop Edgeware
 
