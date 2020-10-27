@@ -1,0 +1,16 @@
+version: '3.6'
+services:
+  edgeware_develop_frontier:
+    image: eteissonniere/edgeware-frontier:latest
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "100M"
+        max-file: "2"
+    volumes:
+      - ./data_edg_frontier:/data/chains
+    ports:
+      - "127.0.0.1:9933:9933"
+      - "0.0.0.0:9944:9944"
+      - "127.0.0.1:30333:30333"
+    command: ['--dev', '--rpc-external', '--ws-external', '--rpc-cors','all' ]
