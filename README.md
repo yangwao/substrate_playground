@@ -17,3 +17,8 @@ docker-compose -f beresheet.yml
 ```
 docker-compose -f mainnet.yml
 ```
+### Credits
+
+Thanks to [twitter.com/EliottTeiss](https://twitter.com/EliottTeiss) for making [ETeissonniere/substrate-nodeops](https://github.com/ETeissonniere/substrate-nodeops)
+
+We are using thats image to spin up great developer experience. Give him kudos 🙌
