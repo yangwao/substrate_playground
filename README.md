@@ -2,6 +2,12 @@
 
 [Requirements here is to have Docker installed](https://docs.docker.com/get-docker/)
 
+## Run for local develop Edgeware with EVM support
+
+```
+docker-compose -f edgeware_frontier.yml up
+```
+
 ## Run for local develop Edgeware
 
 ```
